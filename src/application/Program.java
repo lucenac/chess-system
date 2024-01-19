@@ -33,10 +33,12 @@ public class Program {
             }
             catch (ChessException e) {
                 System.out.println(e.getMessage());
+                System.out.println("Press Enter");
                 sc.nextLine();
             }
             catch (InputMismatchException e) {
                 System.out.println(e.getMessage());
+                System.out.println("Press Enter");
                 sc.nextLine();
             }
 
